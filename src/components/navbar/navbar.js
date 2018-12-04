@@ -20,7 +20,7 @@ class NavbarPage extends React.Component {
       <Router>
         <Navbar color="default-color" dark expand="md" style={{marginTop: "0px"}} fixed="top" scrolling transparent>
           <NavbarBrand>
-            <strong className="white-text">Navbar</strong>
+            <strong className="white-text">Portfolio</strong>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleCollapse("navbarCollapse3")} />
           <Collapse id="navbarCollapse3" isOpen={this.state.collapseID} navbar>
