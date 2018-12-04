@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "mdbreact";
-import logo from './logo.png';
 import Cardd from './components/card/Card';
-import RevCascade from './components/card/reverse-cascade/reverse-cascade';
-import Navbar from './components/navbar/navbar2';
+import Navbar from './components/navbar/navbar';
 import VideoCaro from './components/carousel/videocarousel';
 import BasicCaro from './components/carousel/basiccarousel';
 import Footer from './components/footer/footer';
@@ -42,14 +40,8 @@ class App extends Component {
       <div>
         <BasicCaro/>
       </div>
-      <div>
-        <RevCascade/>
-      </div>
       <Footer/>
     </div>
-
-    
-
     );
   }
 }

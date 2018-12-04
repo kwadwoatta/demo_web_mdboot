@@ -7,10 +7,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 class NavbarPage extends React.Component {
   state = {
-    isOpen: false
+    collapseID: ""
   };
 
-  toggleCollapse = this.setState({ isOpen: !this.state.isOpen });
+  toggleCollapse = collapseID => () =>
+    this.setState(prevState => ({
+      collapseID: prevState.collapseID !== collapseID ? collapseID : ""
+    }));
 
   render() {
     return (
@@ -19,18 +22,18 @@ class NavbarPage extends React.Component {
           <NavbarBrand>
             <strong className="white-text">Navbar</strong>
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggleCollapse} />
-          <Collapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+          <NavbarToggler onClick={this.toggleCollapse("navbarCollapse3")} />
+          <Collapse id="navbarCollapse3" isOpen={this.state.collapseID} navbar>
           <NavbarNav left>
           <NavItem active>
             <NavLink to="#!">Home</NavLink>
           </NavItem>
-          <NavItem>
+          {/* <NavItem>
             <NavLink to="#!">Features</NavLink>
           </NavItem>
           <NavItem>
             <NavLink to="#!">Pricing</NavLink>
-          </NavItem>
+          </NavItem> */}
           <NavItem>
             <Dropdown>
               <DropdownToggle nav caret>
@@ -52,7 +55,7 @@ class NavbarPage extends React.Component {
           <NavItem>
             <NavLink className="waves-effect waves-light" to="#!"><Fa icon="google-plus" /></NavLink>
           </NavItem>
-          <NavItem>
+          {/* <NavItem>
             <Dropdown>
               <DropdownToggle nav caret>
                 <Fa icon="user" />
@@ -64,7 +67,7 @@ class NavbarPage extends React.Component {
                 <DropdownItem href="#!">Something else here</DropdownItem>
               </DropdownMenu>
             </Dropdown>
-          </NavItem>
+          </NavItem> */}
         </NavbarNav>
       </Collapse>
     </Navbar>

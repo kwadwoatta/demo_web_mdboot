@@ -4,14 +4,14 @@ import { Button, Card, CardBody, CardImage, CardTitle, CardText, Col } from 'mdb
 let CardExample = () => {
     return (
       <Col>
-        <Card style={{ maxWidth: "22rem", margin: "15px 0px", maxHeight: "22rem"}}>
+        <Card style={{ maxWidth: "22rem", margin: "15px 0px"}}>
           <CardImage
             className="img-fluid"
             src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
             waves
           />
-          <CardBody style={{maxHeight: "15rem"}}>
-            <div style={{maxHeight: "15rem"}}>
+          <CardBody>
+            <div>
             <CardTitle>Card title</CardTitle>
             <CardText>
               Some quick example text to build on the card title and make
