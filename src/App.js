@@ -3,7 +3,7 @@ import { Container, Row, Col } from "mdbreact";
 import logo from './logo.png';
 import Cardd from './components/card/Card';
 import RevCascade from './components/card/reverse-cascade/reverse-cascade';
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/navbar/navbar2';
 import VideoCaro from './components/carousel/videocarousel';
 import BasicCaro from './components/carousel/basiccarousel';
 import Footer from './components/footer/footer';
