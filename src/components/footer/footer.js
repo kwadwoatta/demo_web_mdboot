@@ -1,10 +1,10 @@
 import React from "react";
-import { Col, Container, Row, Footer } from "mdbreact";
+import { Col, Container, Row, Footer, Button, Fa } from "mdbreact";
 
 class FooterPage extends React.Component {
 render() {
 return (
-<Footer color="aqua-gradient" className="font-small pt-4 mt-4">
+<Footer color="brown" className="font-small pt-4 mt-4">
   <Container fluid className="text-center text-md-left">
     <Row>
       <Col md="6">
@@ -18,16 +18,24 @@ return (
       <h5 className="title">Links</h5>
       <Row>
         <Col className="list-unstyled" md="3" sm="3" xs="3">
-          <a href="#!">Link 1</a>
+        <Button>
+          <a href="#!"><Fa icon="twitter" size="sm"/></a>
+        </Button>
         </Col>
         <Col className="list-unstyled" md="3" sm="3" xs="3">
-          <a href="#!">Link 2</a>
+        <Button>
+          <a href="#!"><Fa icon="linkedin" size="sm"/></a>
+        </Button>
         </Col>
         <Col className="list-unstyled" md="3" sm="3" xs="3">
-          <a href="#!">Link 3</a>
+        <Button>
+          <a href="#!"><Fa icon="whatsapp" size="sm"/></a>
+        </Button>
         </Col>
         <Col className="list-unstyled" md="3" sm="3" xs="3">
-          <a href="#!">Link 4</a>
+        <Button>
+          <a href="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="sm"/></a>
+        </Button>
         </Col>
       </Row>
       </Col>
@@ -36,7 +44,7 @@ return (
   <div className="footer-copyright text-center py-3">
     <Container fluid>
       &copy; {new Date().getFullYear()} Copyright:{" "}
-      <a href="https://www.MDBootstrap.com">Prince Ofori</a>
+      <a href="localhost:3000">Prince Ofori</a>
     </Container>
   </div>
 </Footer>

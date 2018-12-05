@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from "mdbreact";
-import Cardd from './components/card/Card';
 import Navbar from './components/navbar/navbar';
 import VideoCaro from './components/carousel/videocarousel';
 import BasicCaro from './components/carousel/basiccarousel';
@@ -18,7 +17,7 @@ class App extends Component {
 	    <VideoCaro/>
       <div className="App">
          <header className="App-header ">
-         <Container style={{border:"10px 10px"}}>
+         <Container style={{border:"5px 5px"}}>
             <Row>
               <Col><img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg" style={{width:'11rem', height: '5rem'}} alt="mongodb-logo" className="App-logo" /></Col>
               <Col><img src="https://banner2.kisspng.com/20180711/yfe/kisspng-express-js-node-js-javascript-mongodb-node-js-5b461d28173fc6.1251392115313216400952.jpg" style={{width:'5rem', height: '5rem'}} alt="logo" className="App-logo" /></Col>
@@ -33,20 +32,6 @@ class App extends Component {
          <p className="mb-2">Hi, I'm Prince and I'm enthusiastic about JS-related technologies.</p>
        <Button href="https://mdbootstrap.com/react/" target="blank" color="light-blue"><strong>Contact Me!</strong></Button>
      </div>
-      <div>
-        <Container>
-          <Row>
-            <Col>
-              <Cardd/>
-            </Col> 
-            <Col>
-              <p>
-                lorem ipsum 
-              </p>
-            </Col> 
-          </Row>
-        </Container>
-      </div>
       <div>
         <BasicCaro/>
       </div>
