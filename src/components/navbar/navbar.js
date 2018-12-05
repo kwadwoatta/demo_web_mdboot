@@ -22,7 +22,7 @@ class NavbarPage extends React.Component {
   render() {
     return (
       <Router>
-        <Navbar color="white" dark expand="md" style={{marginTop: "0px"}} fixed="top" scrolling transparent scrollingNavbarOffset={660}>
+        <Navbar color="black" dark expand="md" style={{marginTop: "0px"}} fixed="top" scrolling transparent>
           <NavbarBrand>
             <strong className="g-font-unlock">Prince Ofori</strong>
           </NavbarBrand>
@@ -41,10 +41,10 @@ class NavbarPage extends React.Component {
             <NavLink className="waves-effect waves-light" to="#!"><Fa icon="linkedin" size="lg" /></NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="waves-effect waves-light" to="#!"><Fa icon="whatsapp" size="lg" /></NavLink>
+            <NavLink className="waves-effect waves-light" to=""><Fa icon="whatsapp" size="lg" /></NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="waves-effect waves-light" to="#!"><Fa icon="envelope" size="lg" /></NavLink>
+            <NavLink className="waves-effect waves-light" to="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="lg" /></NavLink>
           </NavItem>
         </NavbarNav>
       </Collapse>

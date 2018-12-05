@@ -1,5 +1,5 @@
 .App{
-	height: 100vh;
+	height: 50vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -8,13 +8,13 @@
 }
 
 .App-title{
-	font-family: 'Kumar One Outline', cursive;
+	font-family: 'Acme', sans-serif;
 }
 
 .g-font-unlock{
-	font-family: 'Unlock', cursive;
+	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 200%;
 	color: rgb(255, 255, 255);
 }
 
