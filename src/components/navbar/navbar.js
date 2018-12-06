@@ -30,25 +30,25 @@ class NavbarPage extends React.Component {
           </NavItem>
         </NavbarNav> */}
         <NavbarNav right>
-          <Animation type="flipInY" delay="2s">
+          <Animation type="flipInY" delay="1.5s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to="#!"><Fa icon="twitter" size="lg" /></NavLink>
             </NavItem>
           </Animation>
           
-          <Animation type="flipInX" delay="2.5s">
+          <Animation type="flipInX" delay="2s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to="#!"><Fa icon="linkedin" size="lg" /></NavLink>
             </NavItem>
           </Animation>
           
-          <Animation type="flipInY" delay="3s">
+          <Animation type="flipInY" delay="2.5s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to=""><Fa icon="whatsapp" size="lg" /></NavLink>
             </NavItem>
           </Animation>
           
-          <Animation type="flipInY" delay="3.5s">
+          <Animation type="flipInY" delay="3s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="lg" /></NavLink>
             </NavItem>
