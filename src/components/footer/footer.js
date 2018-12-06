@@ -8,10 +8,9 @@ return (
   <Container fluid className="text-center text-md-left">
     <Row>
       <Col md="6">
-      <h5 className="title">Footer Content</h5>
+      <h5 className="title">Lorem Ipsum</h5>
       <p>
-        Here you can use rows and columns here to organize your footer
-        content.
+      Lorem ipsum dolor sit amet, sed omittam similique at.
       </p>
       </Col>
       <Col md="6">
