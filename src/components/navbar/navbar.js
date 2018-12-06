@@ -23,7 +23,7 @@ class NavbarPage extends React.Component {
     return (
       <Router>
         <Navbar color="black" dark expand="md" style={{marginTop: "0px"}} fixed="top" scrolling transparent>
-          <Animation type="lightSpeedIn" delay="1s" reveal>
+          <Animation type="lightSpeedIn" delay="1s" >
               <NavbarBrand>
                   <strong className="g-font-unlock">Prince Ofori</strong>
               </NavbarBrand>
@@ -36,25 +36,25 @@ class NavbarPage extends React.Component {
           </NavItem>
         </NavbarNav> */}
         <NavbarNav right>
-          <Animation type="flipInY" delay="2s" reveal>
+          <Animation type="flipInY" delay="2s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to="#!"><Fa icon="twitter" size="lg" /></NavLink>
             </NavItem>
           </Animation>
           
-          <Animation type="flipInX" delay="2.5s" reveal>
+          <Animation type="flipInX" delay="2.5s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to="#!"><Fa icon="linkedin" size="lg" /></NavLink>
             </NavItem>
           </Animation>
           
-          <Animation type="flipInY" delay="3s" reveal>
+          <Animation type="flipInY" delay="3s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to=""><Fa icon="whatsapp" size="lg" /></NavLink>
             </NavItem>
           </Animation>
           
-          <Animation type="flipInY" delay="3.5s" reveal>
+          <Animation type="flipInY" delay="3.5s">
             <NavItem>
               <NavLink className="waves-effect waves-light" to="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="lg" /></NavLink>
             </NavItem>

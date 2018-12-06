@@ -22,6 +22,10 @@
 	color: black;
 }
 
-.mb-2{
-	font-size:1.5vw;
+
+
+@media(max-width: 250px){
+	.mb-2{
+		font-size:1.5vw;
+	}
 }
