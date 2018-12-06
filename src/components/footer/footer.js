@@ -4,7 +4,7 @@ import { Col, Container, Row, Footer, Animation, Fa } from "mdbreact";
 class FooterPage extends React.Component {
 render() {
 return (
-<Footer color="black" className="font-small pt-4 mt-4">
+<Footer color="black" className="font-small pt-4 mt-4 foot">
   <Container fluid className="text-center text-md-left">
     <Row>
       <Col md="6">
@@ -48,7 +48,7 @@ return (
   <div className="footer-copyright text-left py-3">
     <Container fluid>
       &copy; {new Date().getFullYear()} Copyright:{" "}
-      <a href="localhost:3000">Built with JS <span role="img">💖</span></a>
+      <a href="localhost:3000">Built with JS <span role="img" aria-label="love">💖</span></a>
     </Container>
   </div>
 </Footer>

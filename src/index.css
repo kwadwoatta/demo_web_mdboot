@@ -29,3 +29,18 @@
 		font-size:1.5vw;
 	}
 }
+
+body{
+	background-image: url("./components/bricks-brickwall-brickwork-1092364.jpg");
+  }
+
+.foot{
+	opacity: 0.6;
+	filter: alpha(opacity=30); /* For IE8 and earlier */
+	}
+
+.navvy{
+	opacity: 0.6;
+	filter: alpha(opacity=30); /* For IE8 and earlier */
+	}
+	

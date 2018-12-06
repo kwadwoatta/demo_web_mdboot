@@ -4,7 +4,7 @@ import { Carousel, CarouselInner, CarouselItem } from "mdbreact";
 class CarouselPage extends Component {
   render() {
     return (
-      <Carousel activeItem={1} length={3} thumbnails showControls={true} showIndicators={true} className="z-depth-1" >
+      <Carousel activeItem={1} length={3} thumbnails showControls={true} showIndicators={true} className="z-depth-2" >
         <CarouselInner>
           <CarouselItem itemId="1">
             <video className="video-fluid d-block" autoPlay loop>

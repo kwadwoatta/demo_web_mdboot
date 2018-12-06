@@ -13,18 +13,12 @@ class NavbarPage extends React.Component {
       collapseID: prevState.collapseID !== collapseID ? collapseID : ""
     }));
 
-  changeColorOnScroll = () => {
-        if (document.getElementsByClassName('navbar').style.backgroundColor !== "white") {
-          document.getElementsByClassName('navlink').style.backgroundColor = "black"
-        }
-    }
-
   render() {
     return (
       <Router>
-        <Navbar color="black" dark expand="md" style={{marginTop: "0px"}} fixed="top" scrolling transparent>
+        <Navbar color="black" dark expand="md" style={{marginTop: "0px"}} fixed="top" scrolling transparent className="navvy">
           <Animation type="lightSpeedIn" delay="1s" >
-              <NavbarBrand>
+              <NavbarBrand href="/">
                   <strong className="g-font-unlock">Prince Ofori</strong>
               </NavbarBrand>
           </Animation>
