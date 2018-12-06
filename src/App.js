@@ -29,7 +29,7 @@ class App extends Component {
            <h1 className="App-title">Welcome to My Portfolio Site</h1>
          </header>
          <p className="mb-2">Hi, I'm human 😊 and I'm enthusiastic about JS technologies.</p><br/>
-       <Animation type="rubberBand" reveal delay="1s">
+       <Animation type="pulse" reveal delay="1s" infinite>
           <Button href="#!" target="blank" color="black" outline><strong>Lemme tell you more</strong></Button>
        </Animation>
      </div>

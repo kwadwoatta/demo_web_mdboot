@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row, Footer, Button, Fa } from "mdbreact";
+import { Col, Container, Row, Footer, Animation, Fa } from "mdbreact";
 
 class FooterPage extends React.Component {
 render() {
@@ -18,25 +18,29 @@ return (
       <Container>
         <Row>
           <Col md="3" sm="3" xs="3">
-          <Button>
-            <a href="#!"><Fa icon="twitter" size="sm"/></a>
-          </Button>
+            <Animation type="swing" reveal infinite>
+              <a href="#!"><Fa icon="twitter" size="lg"/></a>
+            </Animation>
           </Col>
+
           <Col md="3" sm="3" xs="3">
-          <Button>
-            <a href="https://www.linkedin.com/in/prince-ofori"><Fa icon="linkedin" size="sm"/></a>
-          </Button>
+          <Animation type="tada" reveal infinite>
+            <a href="https://www.linkedin.com/in/prince-ofori"><Fa icon="linkedin" size="lg"/></a>
+          </Animation>
           </Col>
+
           <Col md="3" sm="3" xs="3">
-          <Button>
-            <a href="https://wa.me/0501658102"><Fa icon="whatsapp" size="sm"/></a>
-          </Button>
+            <Animation type="wobble" reveal infinite>
+              <a href="https://wa.me/0501658102"><Fa icon="whatsapp" size="lg"/></a>
+            </Animation>
           </Col>
+
           <Col md="3" sm="3" xs="3">
-          <Button>
-            <a href="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="sm"/></a>
-          </Button>
+          <Animation type="jello" reveal infinite>
+            <a href="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="lg"/></a>
+          </Animation>
           </Col>
+
         </Row>
       </Container>
       </Col>
