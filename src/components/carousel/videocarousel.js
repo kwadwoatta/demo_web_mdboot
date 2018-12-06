@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Carousel, CarouselInner, CarouselItem } from "mdbreact";
+import CoderVid from './videos/Typing Of Codes.MP4';
+import CoffeeVid from './videos/Cup Of Coffee On Top Of Coffee Beans.MP4';
+import FoodVid from './videos/Free stock video of bread, eggs, food.MP4';
 
 class CarouselPage extends Component {
   render() {
@@ -8,17 +11,17 @@ class CarouselPage extends Component {
         <CarouselInner>
           <CarouselItem itemId="1">
             <video className="video-fluid d-block" autoPlay loop>
-              <source src="https://storage.googleapis.com/coverr-main/mp4/Aloha-Mundo.mp4" type="video/mp4" />
+              <source src={CoderVid} type="video/mp4" />
             </video>
           </CarouselItem>
           <CarouselItem itemId="2">
             <video className="video-fluid d-block" autoPlay loop>
-              <source src="https://storage.googleapis.com/coverr-main/mp4/Ristretto.mp4" type="video/mp4" />
+              <source src={CoffeeVid} type="video/mp4" />
             </video>
           </CarouselItem>
           <CarouselItem itemId="3">
             <video className="video-fluid d-block" autoPlay loop>
-              <source src="https://storage.googleapis.com/coverr-main/mp4/Egg-Shop.mp4" type="video/mp4" />
+              <source src={FoodVid} type="video/mp4"/>
             </video>
           </CarouselItem>
         </CarouselInner>
