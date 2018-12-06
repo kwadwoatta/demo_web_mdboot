@@ -15,35 +15,37 @@ return (
       </p>
       </Col>
       <Col md="6">
-      <Row>
-        <Col md="3" sm="3" xs="3">
-        <Button>
-          <a href="#!"><Fa icon="twitter" size="sm"/></a>
-        </Button>
-        </Col>
-        <Col md="3" sm="3" xs="3">
-        <Button>
-          <a href="https://www.linkedin.com/in/prince-ofori"><Fa icon="linkedin" size="sm"/></a>
-        </Button>
-        </Col>
-        <Col md="3" sm="3" xs="3">
-        <Button>
-          <a href="https://wa.me/0501658102"><Fa icon="whatsapp" size="sm"/></a>
-        </Button>
-        </Col>
-        <Col md="3" sm="3" xs="3">
-        <Button>
-          <a href="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="sm"/></a>
-        </Button>
-        </Col>
-      </Row>
+      <Container>
+        <Row>
+          <Col md="3" sm="3" xs="3">
+          <Button>
+            <a href="#!"><Fa icon="twitter" size="sm"/></a>
+          </Button>
+          </Col>
+          <Col md="3" sm="3" xs="3">
+          <Button>
+            <a href="https://www.linkedin.com/in/prince-ofori"><Fa icon="linkedin" size="sm"/></a>
+          </Button>
+          </Col>
+          <Col md="3" sm="3" xs="3">
+          <Button>
+            <a href="https://wa.me/0501658102"><Fa icon="whatsapp" size="sm"/></a>
+          </Button>
+          </Col>
+          <Col md="3" sm="3" xs="3">
+          <Button>
+            <a href="mailto:princeofori065@gmail.com"><Fa icon="envelope" size="sm"/></a>
+          </Button>
+          </Col>
+        </Row>
+      </Container>
       </Col>
     </Row>
   </Container>
   <div className="footer-copyright text-left py-3">
     <Container fluid>
       &copy; {new Date().getFullYear()} Copyright:{" "}
-      <a href="localhost:3000">Prince Ofori</a>
+      <a href="localhost:3000">Built with JS <span role="img">💖</span></a>
     </Container>
   </div>
 </Footer>

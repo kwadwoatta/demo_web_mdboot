@@ -1,5 +1,5 @@
 .App{
-	height: 50vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -20,4 +20,8 @@
 
 .colorBlack{
 	color: black;
+}
+
+.mb-2{
+	font-size:1.5vw;
 }

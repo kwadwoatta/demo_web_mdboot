@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button } from "mdbreact";
+import { Button, Animation } from "mdbreact";
 import Navbar from './components/navbar/navbar';
 import VideoCaro from './components/carousel/videocarousel';
-import BasicCaro from './components/carousel/basiccarousel';
 import Footer from './components/footer/footer';
 
 class App extends Component {
@@ -29,8 +28,10 @@ class App extends Component {
            {/* <img src="https://blog.hyperiondev.com/wp-content/uploads/2018/09/Blog-Article-MERN-Stack.jpg" style={{width:'20rem'}} alt="logo" className="App-logo" /> */}
            <h1 className="App-title">Welcome to My Portfolio Site</h1>
          </header>
-         <p className="mb-2">Hi, I'm Prince and I'm enthusiastic about JS-related technologies.</p>
-       <Button href="#!" target="blank" color="black" outline><strong>Let me tell you more</strong></Button>
+         <p className="mb-2">Hi, I'm human 😊 and I'm enthusiastic about JS technologies.</p><br/>
+       <Animation type="rubberBand" reveal delay="2s">
+          <Button href="#!" target="blank" color="black" outline><strong>Lemme tell you more</strong></Button>
+       </Animation>
      </div>
       <Footer/>
     </div>
